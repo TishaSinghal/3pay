@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   const [email, setEmail] = useState("");
   const [emailSent, setEmailSent] = useState(false);
 
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
           
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center py-8 text-customDBlue">
-          2024 3pay | All rights reserved
+          2024 3Pay | All rights reserved
         </p>
         </div>
 
